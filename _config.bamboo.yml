@@ -38,7 +38,7 @@ Github:
   url: https://github.com/Louaq
 
 # 网站logo
-logo: /medias/logo.png # 为空则不显示
+logo: /img/b.jpg # 为空则不显示
 
 # 网站 favicon
 favicon: /img/favicon.ico # or .png .jpg .svg .gif .jpeg .ico
@@ -182,7 +182,7 @@ swiper:
   # 当在.md文件中，设置swiper:true，会将该文章放到轮播中，
   showPrevNext: true # 是否显示左右切换按钮
   showIndicators: false  # 是否显示指示器
-  autoplay: false # 是否自动轮播
+  autoplay: true # 是否自动轮播
   loop: true # 让轮播看起来是循环的, 例如false的话，到达最后一个轮播图的时候，右按钮不能点击
   delay: 5000 # 切换延迟时间
   effect: 'slide' # 'fade': 淡入淡出效果
@@ -194,7 +194,7 @@ swiper:
   bubble: true # 轮播图是否显示气泡,也可以打开底下的花瓣或者雪花特效 sakura（花瓣）: true snow(雪花): true
   wave: true # 轮播图底下的波浪特效
   # 当没有文章设置swiper: true时候，轮播图会显示以下default默认内容，可自行切换对应内容
-  defaultImg: 'https://pic1.zhimg.com/v2-af3ccef61cf58b1a70765747cc1bbeac_b.jpg' # 图片，没有则随机选取
+  defaultImg: 'https://vip.123pan.cn/1816472581/yk6baz03t0m000d6xujocyxuegif80y9DIYPAqF0DqJ1DGxwDIiw.png' # 图片，没有则随机选取
   defaultVideo: '' # video，min-width:992px show
   defaultVideoLoadingImg: 'https://img14.360buyimg.com/ddimg/jfs/t1/175057/18/19582/882056/60ee7ac8Ef0045710/202d2ad878684a3b.gif' # video loading img -- use .gif img, 视频预加载动画，使用gif图片作为loading，为空则视频没有预加载动画
   defaultTile: 'Louaq' # 标题
@@ -249,7 +249,7 @@ WeChatpay: 'https://pic2.zhimg.com/80/v2-29e78b52051ce542adf6d786d61fbd19_1440w.
 # 分享功能
 sharejs: 
   on: true
-  sites: twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin
+  sites: qq,qzone,wechat,weibo,douban      # twitter,facebook,google,linkedin
 
 # 鼠标点击特效
 cursor_effect:
@@ -347,9 +347,9 @@ music:
   loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  volume: 0.5       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
   listFolded: true  # 列表默认折叠
-  hideLrc: false    # 隐藏歌词
+  hideLrc: true    # 隐藏歌词
 
 #版权信息  coryRyght
 copyright:
@@ -371,7 +371,7 @@ notice:
   list: # list相当于数组对象，[{title:'xx',date: 'xx', url: 'xxx', color: 'red'}]根据自己实际情况，增加或者删除
      - title: '#博客更新到2.0了'
        date: '2021-04-28'
-       url: '/archives'   # 可以为空, 也可以是本地页面地址如 '/archives'
+       url: ''   # 可以为空, 也可以是本地页面地址如 '/archives'
        color: red   # 字体颜色
      - title: '#欢迎来到我的博客~'
        date: '2025-03-23'
@@ -537,7 +537,7 @@ danmu:
 # 归档页面图片、描述、视频，全屏 or 'http://xxx'
 archive:
   title: 'archive'
-  img: 'https://pic1.zhimg.com/80/v2-1414b3a4b205e19060db18a20d08723a_1440w.jpg?source=1940ef5c'
+  img: 'https://vip.123pan.cn/1816472581/yk6baz03t0l000d6xujntz00jd19juxaDIYPAqF0DqJ1DGxwDIiw.png'
   desc: '愿你如风，被人温柔以待'
   full: true # 设置为true，则图片全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频，为空则显示图片(img)
@@ -549,7 +549,7 @@ archive:
 # 标签页面，配置同上
 tag:
   title: 'tags'
-  img: 'https://pic2.zhimg.com/80/v2-bf6c555e7c61a57ba4a1fd95a9a32975_1440w.jpg' # 标签页上面的图片
+  img: 'https://vip.123pan.cn/1816472581/ymjew503t0l000d6xujz7kamkav50qu6DIYPAqF0DqJ1DGxwDIiw.png' # 标签页上面的图片
   desc: '愿你如风，被人温柔以待'
   full: false # 标签页上面的图片是否全屏显示
   video: '' # 如果有值，则在屏幕大于920px的时候，全屏显示视频
@@ -559,7 +559,7 @@ tag:
 # 标签详情页面，配置同上
 tagDetail:
   title: 'tag'
-  img: 'https://pic1.zhimg.com/80/v2-604a15cef201cf177943af2d915eb2e7_1440w.jpg?source=1940ef5c'
+  img: 'https://vip.123pan.cn/1816472581/ymjew503t0m000d6xujzns6nfwgh6p6vDIYPAqF0DqJ1DGxwDIiw.jpg'
   desc: '愿你如风，被人温柔以待' # 标签页详情上上面的图片上的文字
   full: false
   video: ''
@@ -568,7 +568,7 @@ tagDetail:
 # 分类页面，配置同上
 categories:
   title: 'categories'
-  img: 'https://pic2.zhimg.com/80/v2-7c496c95897fb15768593cc5170c8b1a_1440w.jpg?source=1940ef5c'
+  img: 'https://vip.123pan.cn/1816472581/ymjew503t0l000d6xujz7kagxsus0ktdDIYPAqF0DqJ1DGxwDIiw.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false
   video: ''
@@ -578,7 +578,7 @@ categories:
 #分类详情页面，配置同上
 categoryDetail:
   title: 'category'
-  img: 'https://pic3.zhimg.com/80/v2-98dcd81cb0d1fee52a807c13cedb8338_1440w.jpg?source=1940ef5c'
+  img: 'https://vip.123pan.cn/1816472581/yk6baz03t0m000d6xujocxdsj6gkwlqjDIYPAqF0DqJ1DGxwDIiw.jpg'
   desc: '愿你如风，被人温柔以待'
   full: false
   video: ''
@@ -603,7 +603,7 @@ color_scheme:
     # 首页文章列表的背景颜色, url("http://xxx.png") or red or #000 or rgba() ..
     postListBackground: 'rgba(255,255,255,1)'
     # 首页页面的底部背景颜色，空字符串透明('transparent')，可以是白色('#fff')等颜色, 也可以是图片，例如  'url("https://img11.360buyimg.com/ddimg/jfs/t1/169624/29/16/4603017/5fec2c79Eecbd536a/308b28b82a013cd2.png")'
-    bgFloor: 'url("https://pic2.zhimg.com/80/v2-a90e3e9f544549e244355039b96bd606_1440w.jpg")' # 如果是图片地址，url里面请用双引号
+    bgFloor: 'url("https://vip.123pan.cn/1816472581/yk6baz03t0m000d6xujocxdnnxgkqcewDIYPAqF0DqJ1DGxwDIiw.jpg")' # 如果是图片地址，url里面请用双引号
     headerMenuBackgroundColor: '' 
     # headerMenuBackgroundColor:头部导航背景颜色, 为空则使用theme主题色, 
     # headerMenuBackgroundColor写法: rgba(268, 264, 269, 0.8) or #42b983 or red or 也可以是渐变颜色 linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%)  or 也可以是url("图片地址")
@@ -638,20 +638,20 @@ color_scheme:
 site_footer:
   # 通过layout控制页脚元素的显示和顺序
   # busuanzi是访客数那个,假如说你想在 social和 copyright中间加一个自定义内容, 可以这样写 layout: [social, aaa ,copyright, busuanzi, custom], 然后在下面写上aaa: 'markdown格式', aaa这个名称随便取
-  layout: [social, copyright, custom]
+  layout: [social, busuanzi, copyright, custom]
   social:
-    # - icon: fas fa-rss
-    #   url: /atom.xml
-    # - icon: fas fa-envelope
-    #   url: mailto:1730241541@qq.com
-    # - icon: fas fa-github
-    #   url: https://github.com/yuang01/hexo-theme-bamboo
-    # - icon: fas fa-qq
-    #   url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1730241541
-  copyright: 'Copyright © 2024 - 2025 <a href="https://github.com/Louaq">louaq</a> | Powered by <a href="https://hexo.io/zh-cn/docs/">Hexo</a> | Theme <a href="https://github.com/yuang01/theme">Bamboo</a> '
+     - icon: fas fa-rss
+       url: /atom.xml
+     - icon: fas fa-envelope
+       url: mailto:yang_syy@qq.com
+     - icon: fab fa-github
+       url: https://github.com/Louaq
+     - icon: fab fa-qq
+       url: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2969742951
+  copyright: 'Copyright © 2024 - 2025 <a href="https://github.com/Louaq">louaq</a>'
   custom: # 根据需要自行取消注释，label: 'markdown格式'，会在下面继续增加内容
-    # - label: '<br>'
-    # - label: '[Hello World](http://baidu.com)'
+     #- label: '<br>'
+     #- label: '[Hello World](http://baidu.com)'
   
 # tag标签 按钮，文本高亮等等..
 tag_plugins:
