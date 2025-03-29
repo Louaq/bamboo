@@ -14,6 +14,9 @@ menu:
    Categories:
      url: /categories
      icon: fas fa-bookmark
+   留言板:
+      url: /messageBoard
+      icon: fas fa-comment-dots
    Friends:
      url: /friends
 #   更多: # 这是二级菜单的写法
