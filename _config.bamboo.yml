@@ -687,8 +687,8 @@ mermaid:
 # pjax
 pjax:
   on: true
-  animation: circle # false, nprogress, circle
-  animationColor: 'orangered' # animation为 nprogress时候的动画颜色, red or #000 ...
+  animation: nprogress # false, nprogress, circle
+  animationColor: 'green' # animation为 nprogress时候的动画颜色, red or #000 ...
   cacheBust: false # url 地址追加时间戳，用以避免浏览器缓存
   timeout: 5000    # The timeout in milliseconds for the XHR requests. Set to 0 to disable the timeout.
   banUrl:          # 被屏蔽的 url 地址将不启用 pjax 跳转，可以在控制台下使用 window.location.pathname 获取
